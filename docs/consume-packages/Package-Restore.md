@@ -9,7 +9,7 @@ ms.topic: conceptual
 
 # Package Restore
 
-To promote a cleaner development environment and to reduce repository size, NuGet **Package Restore** installs all a project's dependencies as listed in either the project file or `packages.config`. Visual Studio can restore packages automatically when a project is built. The `dotnet build` and `dotnet run` commands (.NET Core 2.0+) also perform an automatic restore. You can also restore packages at any time through Visual Studio, `nuget restore`, `dotnet restore`, and xbuild on Mono.
+To promote a cleaner development environment and to reduce repository size, NuGet **Package Restore** installs all of a project's dependencies as listed in either the project file or `packages.config`. Visual Studio can restore packages automatically when a project is built. The `dotnet build` and `dotnet run` commands (.NET Core 2.0+) also perform an automatic restore. You can also restore packages at any time through Visual Studio, `nuget restore`, `dotnet restore`, and xbuild on Mono.
 
 Package restore makes sure that all a project's dependencies are available without storing those packages in source control. See [Packages and Source Control](../consume-packages/packages-and-source-control.md) on how to configure your repository to exclude package binaries.
 
